@@ -22,10 +22,10 @@ pool.on('connect', () => {
   console.log('connected to the Database');
 });
 
-var psqlRetrieveAll = (req, res) => {
-    var getEverything = `SELECT * FROM ${AWSTABLE} limit 10`;
+const psqlRetrieveAll = (req, res) => {
+    const QUERYALLLIMIT10 = `SELECT * FROM ${AWSTABLE} limit 10`;
     
-    return pool.query(getEverything)
+    pool.query(QUERYALLLIMIT10)
     .then((data) => {
         // console.log('data.rows: ', data.rows);
          res.status(200).send(data.rows)
@@ -36,18 +36,18 @@ var psqlRetrieveAll = (req, res) => {
     }); 
 }
 
-var psqlRetrieveOne = (req, res) => {
+const psqlRetrieveOne = (req, res) => {
     
-  var getOne = 'SELECT * FROM neighborhood WHERE \"uniqueId\" = ' + req.params.id;
+  const QUERYONE = 'SELECT * FROM neighborhood WHERE \"uniqueId\" = ' + req.params.id;
 
-  return pool.query(getOne)
-      .then((data) => {
-          res.status(200).send(data.rows)
-      })
-      .catch((err) => {
-          console.log(err);
-          // pool.end();
-        }); 
+  pool.query(QUERYONE)
+    .then((data) => {
+        res.status(200).send(data.rows)
+    })
+    .catch((err) => {
+        console.log(err);
+        // pool.end();
+    }); 
 }
 
 module.exports = {
