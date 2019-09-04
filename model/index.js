@@ -27,8 +27,8 @@ var psqlRetrieveAll = (req, res) => {
     
     return pool.query(getEverything)
     .then((data) => {
-        console.log('data.rows: ', data.rows);
-        // res.status(200).send(data.rows)
+        // console.log('data.rows: ', data.rows);
+         res.status(200).send(data.rows)
     })
     .catch((err) => {
       console.log(err);
@@ -36,3 +36,21 @@ var psqlRetrieveAll = (req, res) => {
     }); 
 }
 
+var psqlRetrieveOne = (req, res) => {
+    
+  var getOne = 'SELECT * FROM neighborhood WHERE \"uniqueId\" = ' + req.params.id;
+
+  return pool.query(getOne)
+      .then((data) => {
+          res.status(200).send(data.rows)
+      })
+      .catch((err) => {
+          console.log(err);
+          // pool.end();
+        }); 
+}
+
+module.exports = {
+  'psqlRetrieveAll': psqlRetrieveAll,
+  'psqlRetrieveOne': psqlRetrieveOne
+}
