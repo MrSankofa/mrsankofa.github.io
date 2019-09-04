@@ -9,7 +9,7 @@ const server = express();
 
 server.use(morgan('dev'));
 
-server.use(express.static(path.join(__dirname, '../public')));
+server.use(express.static(path.join(__dirname, '../view/public')));
 
 server.get('/items', (req, res) => {
   psqlRetrieveAll(req, res)
