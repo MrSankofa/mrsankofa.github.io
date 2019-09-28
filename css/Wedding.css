@@ -1,0 +1,1327 @@
+	@media (min-width: 1250px) {
+	
+	/***************** Base Styles *****************/
+	
+	* {
+	box-sizing: border-box;
+	}
+
+	body
+	{
+		background-image: url("../img/wallbeach.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	h1 
+	{
+		display: block;
+		margin: 0 7%;
+		font-size: 40px;
+		padding: 0;
+		background: none; 
+		border-radius: 15px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	
+		font-family: 'Alex Brush', cursive, "Baskerville";
+		font-weight: bold;
+		
+	}
+
+	h3
+	{
+		margin: 0 38%;
+		background: none;
+		margin-bottom: 15px;
+	}
+
+	body, h3, p
+	{
+		margin-top: 10px;
+		font-family: "serif", "Baskerville";
+		font-weight: bold;
+	}
+
+	label
+	{
+		padding-right: 5px;
+	}
+
+	/***************** Psuedo Classes *****************/
+	#banner a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.click-toSignIn span:hover
+	{
+		color: white;
+	}
+	
+	/***************** Main Styles ******************/
+	.underlay 
+	{
+		
+	    background: linear-gradient(to bottom, rgba(255, 255, 255, .7),  rgba(255, 255, 255, .8));
+	    border-radius: 15px;
+	    margin: 0 20%;
+	    height: 90%;
+	    margin-top: 10%;
+	    padding-top: 5%;
+	    
+	}
+
+	.totop{
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 20px;
+		
+	}
+
+	/**************** Header Styles ****************/
+
+	#banner ul 
+	{
+		background: rgba(255, 255, 255, .7); 
+		height: 64px;
+		padding-top: 10px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#banner ul li 
+	{
+		
+		display: inline;
+		padding: 5px 10px;
+		margin-right: 8px;
+		
+	}
+
+	#banner a 
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 43px;
+	}
+
+
+	/**************** Primary Styles ****************/
+
+	.primary-group 
+	{
+		overflow: auto;
+		margin: 0 5%;
+		
+		border-radius: 15px;
+		padding: 10px;
+	}
+
+	.primary-group section p 
+	{
+		font-family: "Kaushan Script", "Baskerville";
+		font-size: 14px;
+	}
+
+	#intro 
+	{
+		display: inline;
+		font-weight: bold;
+
+	}
+
+	#intro-text
+	{
+		display: inline;
+		border: 0;
+		float: right;
+		height: 250px;
+		border: 5px solid white;
+		border-radius: 15px;
+		margin-left: 10px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+
+	/**************** Secondary Styles ****************/
+
+
+	.description
+	{
+		float: left;
+		display: inline;
+		margin-top: 2%
+
+	}
+
+	.description p
+	{
+		display: inline;
+		max-width: 300px;
+	}
+
+	.costs
+	{
+		
+		display: inline;
+		margin-left: 30px;
+		font-size: 22px
+	}
+
+	.col-md-2
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+
+
+
+	#secondary-group
+	{
+		overflow: auto;
+		
+		background: none;
+		border-radius: 15px;
+		padding: 10px;
+		color: black;
+	}
+
+	#secondary-group section h3 
+	{
+		background: none;
+	}
+
+	#suggestion
+	{
+		margin: 0 25%;
+		margin-top: 15px;
+	}
+
+
+	.formlabel 
+	{
+		float: left;
+	}
+
+	
+	.formitem-textual
+	{
+		float: left;
+	}
+
+	.formitem input
+	{
+		margin-left: 5px;
+	}
+
+	#larger
+	{
+		margin: 0 25%;
+	}
+
+
+
+	.Sign-In-Container 
+	{
+	    width:100%;
+	}
+
+	.Sign-In-Container div 
+	{
+	    width:100%;
+	}
+	.Sign-In-Container .click-toSignIn
+	{
+	    border-radius: 15px;
+	    padding: 2px;
+	    cursor: pointer;
+	    font-weight: bold;
+	}
+
+	.click-toSignIn span
+	{
+		background: none;
+		color: black;
+		margin: 0 30%;
+	}
+
+	
+	.Sign-In-Container .content 
+	{
+	    display: none;
+	    padding : 5px;
+	}
+
+	
+
+	#Reg
+	{
+		text-decoration: underline;
+	}
+
+	.item-title
+	{
+		margin: 10px 30%
+	}
+
+	.item-title h4
+	{
+		font-weight: bold;
+	}
+
+
+
+
+
+	/***************** Floated rows *****************/
+	.registry_1, .registry_2, .registry_3, .registry_4, .registry_5, .registry_6, .registry_7, .registry_8{
+		width: 100%;
+		margin-bottom: 20px;
+		overflow: hidden;
+
+	}
+	.image
+	{
+		border: 3px solid white;
+		box-shadow: 5px 10px 5px #888888;
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		border-radius: 10px;
+
+	}
+
+	.image img 
+	{
+		border-radius: 10px;
+		border-top: 2px solid white;
+
+	}
+
+	.text-description
+	{
+		width: 60%;
+		float: left;
+		height: 100px;
+		border-left: 2px solid lightgrey;
+		border-right: 2px solid lightgrey;
+
+	}
+
+	.text-description p 
+	{
+		text-align: justify;
+		padding: 0 5px;
+	}
+
+	.cost
+	{
+		float: right;
+		margin-right: 5%;
+		height: 100px;
+	}
+
+	.cost p 
+	{
+		margin: 0 30%;
+
+	}
+
+
+
+	/***************** Float ClearFix *****************/
+	.registry_1:after{
+		clear: both;
+	}
+	
+}
+
+@media (min-width: 993px) and (max-width: 1250px) {	
+	/***************** Base Styles *****************/
+	
+	* {
+	box-sizing: border-box;
+	}
+
+	body
+	{
+		background-image: url("../img/wallbeach.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	h1 
+	{
+		display: block;
+		margin: 0 7%;
+		font-size: 40px;
+		padding: 0;
+		background: none; 
+		border-radius: 15px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	
+		font-family: 'Alex Brush', cursive, "Baskerville";
+		font-weight: bold;
+		
+	}
+
+	h3
+	{
+		margin: 0 38%;
+		background: none;
+		margin-bottom: 15px;
+	}
+
+	body, h3, p
+	{
+		margin-top: 10px;
+		font-family: "serif", "Baskerville";
+		font-weight: bold;
+	}
+
+	label
+	{
+		padding-right: 5px;
+	}
+
+	/***************** Psuedo Classes *****************/
+	#banner a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.click-toSignIn span:hover
+	{
+		color: white;
+	}
+	
+	/***************** Main Styles ******************/
+	.underlay 
+	{
+		
+	    background: linear-gradient(to bottom, rgba(255, 255, 255, .7),  rgba(255, 255, 255, .8));
+	    border-radius: 15px;
+	    margin: 0 20%;
+	    height: 90%;
+	    margin-top: 10%;
+	    padding-top: 5%;
+	    
+	}
+
+	.totop{
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 20px;
+		
+	}
+
+	/**************** Header Styles ****************/
+
+	#banner ul 
+	{
+		background: rgba(255, 255, 255, .7); 
+		height: 64px;
+		padding-top: 10px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#banner ul li 
+	{
+		
+		display: inline;
+		padding: 5px 10px;
+		margin-right: 8px;
+		
+	}
+
+	#banner a 
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 43px;
+	}
+
+
+	/**************** Primary Styles ****************/
+
+	.primary-group 
+	{
+		overflow: auto;
+		margin: 0 5%;
+		
+		border-radius: 15px;
+		padding: 10px;
+	}
+
+	.primary-group section p 
+	{
+		font-family: "Kaushan Script", "Baskerville";
+	}
+
+	#intro 
+	{
+		display: inline;
+		font-weight: bold;
+
+	}
+
+	#intro-text
+	{
+		display: inline;
+		border: 0;
+		float: right;
+		height: 250px;
+		border: 5px solid white;
+		border-radius: 15px;
+		margin-left: 10px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+
+	/**************** Secondary Styles ****************/
+
+
+	.description
+	{
+		float: left;
+		display: inline;
+		margin-top: 2%
+
+	}
+
+	.description p
+	{
+		display: inline;
+		max-width: 300px;
+	}
+
+	.costs
+	{
+		
+		display: inline;
+		margin-left: 30px;
+		font-size: 22px
+	}
+
+	.col-md-2
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+
+
+
+	#secondary-group
+	{
+		overflow: auto;
+		
+		background: none;
+		border-radius: 15px;
+		padding: 10px;
+		color: black;
+	}
+
+	#secondary-group section h3 
+	{
+		background: none;
+	}
+
+	#suggestion
+	{
+		margin: 0 25%;
+		margin-top: 15px;
+	}
+
+
+	.formlabel 
+	{
+		float: left;
+	}
+
+	
+	.formitem-textual
+	{
+		float: left;
+	}
+
+	.formitem input
+	{
+		margin-left: 5px;
+	}
+
+	#larger
+	{
+		margin: 0 25%;
+	}
+
+
+
+	.Sign-In-Container 
+	{
+	    width:100%;
+	}
+
+	.Sign-In-Container div 
+	{
+	    width:100%;
+	}
+	.Sign-In-Container .click-toSignIn
+	{
+	    border-radius: 15px;
+	    padding: 2px;
+	    cursor: pointer;
+	    font-weight: bold;
+	}
+
+	.click-toSignIn span
+	{
+		background: none;
+		color: black;
+		margin: 0 30%;
+	}
+
+	
+	.Sign-In-Container .content 
+	{
+	    display: none;
+	    padding : 5px;
+	}
+
+	
+
+	#Reg
+	{
+		text-decoration: underline;
+	}
+
+	.item-title
+	{
+		margin: 10px 20%
+	}
+
+	.item-title h4
+	{
+		font-weight: bold;
+	}
+
+
+
+
+
+	/***************** Floated rows *****************/
+	.registry_1, .registry_2, .registry_3, .registry_4, .registry_5, .registry_6, .registry_7, .registry_8{
+		width: 100%;
+		margin-bottom: 20px;
+		overflow: hidden;
+
+	}
+	.image
+	{
+		border: 3px solid white;
+		box-shadow: 5px 10px 5px #888888;
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		border-radius: 10px;
+
+	}
+
+	.image img 
+	{
+		border-radius: 10px;
+		border-top: 2px solid white;
+
+	}
+
+	.text-description
+	{
+		width: 50%;
+		float: left;
+		height: 100px;
+		border-left: 2px solid lightgrey;
+		border-right: 2px solid lightgrey;
+
+	}
+
+	.text-description p 
+	{
+		text-align: justify;
+		padding: 0 5px;
+	}
+
+	.cost
+	{
+		float: right;
+		margin-right: 2.5%;
+		height: 100px;
+	}
+
+	.cost p 
+	{
+		margin: 0 30%;
+
+	}
+
+
+
+	/***************** Float ClearFix *****************/
+	.registry_1:after{
+		clear: both;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	/***************** Base Styles *****************/
+	
+	* {
+	box-sizing: border-box;
+	}
+
+	body
+	{
+		background-image: url("../img/wallbeach.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	h1 
+	{
+		display: block;
+		margin: 0 7%;
+		font-size: 40px;
+		padding: 0;
+		background: none; 
+		border-radius: 15px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	
+		font-family: 'Alex Brush', cursive, "Baskerville";
+		font-weight: bold;
+		
+	}
+
+	h3
+	{
+		margin: 0 35%;
+		background: none;
+		margin-bottom: 15px;
+	}
+
+	body, h3, p
+	{
+		margin-top: 10px;
+		font-family: "serif", "Baskerville";
+		font-weight: bold;
+	}
+
+	label
+	{
+		padding-right: 5px;
+	}
+
+	/***************** Psuedo Classes *****************/
+	#banner a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.click-toSignIn span:hover
+	{
+		color: white;
+	}
+	
+	/***************** Main Styles ******************/
+	.underlay 
+	{
+		
+	    background: linear-gradient(to bottom, rgba(255, 255, 255, .7),  rgba(255, 255, 255, .8));
+	    border-radius: 15px;
+	    margin: 0 5%;
+	    height: 90%;
+	    margin-top: 10%;
+	    padding-top: 5%;
+	    
+	}
+
+	.totop{
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 20px;
+		
+	}
+
+	/**************** Header Styles ****************/
+
+	#banner ul 
+	{
+		background: rgba(255, 255, 255, .7); 
+		height: 64px;
+		padding-top: 10px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#banner ul li 
+	{
+		
+		display: inline;
+		padding: 5px 10px;
+		margin-right: 8px;
+		
+	}
+
+	#banner a 
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 43px;
+	}
+
+
+	/**************** Primary Styles ****************/
+
+	.primary-group 
+	{
+		overflow: auto;
+		margin: 0 5%;
+		
+		border-radius: 15px;
+		padding: 10px;
+	}
+
+	.primary-group section p 
+	{
+		font-family: "Kaushan Script", "Baskerville";
+	}
+
+	#intro 
+	{
+		display: inline;
+		font-weight: bold;
+
+	}
+
+	#intro-text
+	{
+		display: inline;
+		border: 0;
+		float: right;
+		height: 250px;
+		border: 5px solid white;
+		border-radius: 15px;
+		margin-left: 10px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+
+	/**************** Secondary Styles ****************/
+
+
+	.description
+	{
+		float: left;
+		display: inline;
+		margin-top: 2%
+
+	}
+
+	.description p
+	{
+		display: inline;
+		max-width: 300px;
+	}
+
+	.costs
+	{
+		
+		display: inline;
+		margin-left: 30px;
+		font-size: 22px
+	}
+
+	.col-md-2
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+
+
+
+	#secondary-group
+	{
+		overflow: auto;
+		
+		background: none;
+		border-radius: 15px;
+		padding: 10px;
+		color: black;
+	}
+
+	#secondary-group section h3 
+	{
+		background: none;
+	}
+
+	#suggestion
+	{
+		margin: 0 25%;
+		margin-top: 15px;
+	}
+
+
+	.formlabel 
+	{
+		float: left;
+	}
+
+	
+	.formitem-textual
+	{
+		float: left;
+	}
+
+	.formitem input
+	{
+		margin-left: 5px;
+	}
+
+	#larger
+	{
+		margin: 0 25%;
+	}
+
+
+
+	.Sign-In-Container 
+	{
+	    width:100%;
+	}
+
+	.Sign-In-Container div 
+	{
+	    width:100%;
+	}
+	.Sign-In-Container .click-toSignIn
+	{
+	    border-radius: 15px;
+	    padding: 2px;
+	    cursor: pointer;
+	    font-weight: bold;
+	}
+
+	.click-toSignIn span
+	{
+		background: none;
+		color: black;
+		margin: 0 30%;
+	}
+
+	
+	.Sign-In-Container .content 
+	{
+	    display: none;
+	    padding : 5px;
+	}
+
+	
+
+	#Reg
+	{
+		text-decoration: underline;
+	}
+
+	.item-title
+	{
+		margin: 10px 20%
+	}
+
+	.item-title h4
+	{
+		font-weight: bold;
+	}
+
+
+
+
+
+	/***************** Floated rows *****************/
+	.registry_1, .registry_2, .registry_3, .registry_4, .registry_5, .registry_6, .registry_7, .registry_8{
+		width: 100%;
+		margin-bottom: 20px;
+		overflow: hidden;
+
+	}
+	.image
+	{
+		border: 3px solid white;
+		box-shadow: 5px 10px 5px #888888;
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		border-radius: 10px;
+
+	}
+
+	.image img 
+	{
+		border-radius: 10px;
+		border-top: 2px solid white;
+
+	}
+
+	.text-description
+	{
+		width: 60%;
+		float: left;
+		height: 100px;
+		border-left: 2px solid lightgrey;
+		border-right: 2px solid lightgrey;
+
+	}
+
+	.text-description p 
+	{
+		text-align: justify;
+		padding: 0 5px;
+	}
+
+	.cost
+	{
+		float: right;
+		margin-right: 2.5%;
+		height: 100px;
+	}
+
+	.cost p 
+	{
+		margin: 0 30%;
+
+	}
+
+
+
+	/***************** Float ClearFix *****************/
+	.registry_1:after{
+		clear: both;
+	}
+}
+
+@media (max-width: 768px){
+	* {
+	box-sizing: border-box;
+	}
+
+	body
+	{
+		background-image: url("../img/wallbeach.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	h1 
+	{
+		display: block;
+		margin: 0 7%;
+		font-size: 40px;
+		padding: 0;
+		background: none; 
+		border-radius: 15px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	
+		font-family: 'Alex Brush', cursive, "Baskerville";
+		font-weight: bold;
+		
+	}
+
+	h3
+	{
+		
+		background: none;
+		margin-bottom: 15px;
+	}
+
+	body, h3, p
+	{
+		margin-top: 10px;
+		font-family: "serif", "Baskerville";
+		font-weight: bold;
+	}
+
+	label
+	{
+		padding-right: 5px;
+	}
+
+	/***************** Psuedo Classes *****************/
+	#banner a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.click-toSignIn span:hover
+	{
+		color: white;
+	}
+	
+	/***************** Main Styles ******************/
+	.underlay 
+	{
+		
+	    background: linear-gradient(to bottom, rgba(255, 255, 255, .7),  rgba(255, 255, 255, .8));
+	    border-radius: 15px;
+	    margin: 0 5%;
+	    height: 90%;
+	    margin-top: 10%;
+	    padding-top: 5%;
+	    
+	}
+
+	.totop{
+		
+		margin-bottom: 20px;
+		
+	}
+
+	/**************** Header Styles ****************/
+
+	#banner ul 
+	{
+		background: rgba(255, 255, 255, .7); 
+		height: 30px;
+		padding-top: 10px;
+		margin-top: 0;
+		margin-bottom: 30px;
+
+	}
+
+	#banner ul li 
+	{
+		
+		display: inline;
+		padding: 5px 2px;
+		margin-right: 8px;
+		
+	}
+
+	#banner a 
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 14px;
+	}
+
+
+	/**************** Primary Styles ****************/
+
+	.primary-group 
+	{
+		overflow: auto;
+		margin: 0 5%;
+		
+		border-radius: 15px;
+		padding: 10px;
+
+	}
+
+	.primary-group section p 
+	{
+		font-family: "Kaushan Script", "Baskerville";
+	}
+
+	#intro 
+	{
+		display: inline;
+		font-weight: bold;
+
+	}
+
+	#intro-text
+	{
+		display: inline;
+		border: 0;
+		float: right;
+		height: 250px;
+		border: 5px solid white;
+		border-radius: 15px;
+		margin-left: 10px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+	.primary-group section img 
+	{
+		margin: 0 40px 40px 40px;
+		
+		
+	}
+
+	.primary-group section p{
+		display: block;
+		
+	}
+
+
+	/**************** Secondary Styles ****************/
+
+
+	.description
+	{
+		float: left;
+		display: inline;
+		margin-top: 2%
+
+	}
+
+	.description p
+	{
+		display: inline;
+		max-width: 300px;
+	}
+
+	.costs
+	{
+		
+		display: inline;
+		margin-left: 30px;
+		font-size: 22px
+	}
+
+	.col-md-2
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+
+
+
+	#secondary-group
+	{
+		overflow: auto;
+		
+		background: none;
+		border-radius: 15px;
+		padding: 10px;
+		color: black;
+	}
+
+	#secondary-group section h3 
+	{
+		background: none;
+	}
+
+	#suggestion
+	{
+		margin: 0 25%;
+		margin-top: 15px;
+	}
+
+
+	.formlabel 
+	{
+		float: left;
+	}
+
+	
+	.formitem-textual
+	{
+		float: left;
+	}
+
+	.formitem input
+	{
+		margin-left: 5px;
+	}
+
+	#larger
+	{
+		margin: 0 25%;
+	}
+
+
+
+	.Sign-In-Container 
+	{
+	    width:100%;
+	}
+
+	.Sign-In-Container div 
+	{
+	    width:100%;
+	}
+	.Sign-In-Container .click-toSignIn
+	{
+	    border-radius: 15px;
+	    padding: 2px;
+	    cursor: pointer;
+	    font-weight: bold;
+	}
+
+	.click-toSignIn span
+	{
+		background: none;
+		color: black;
+		margin: 0 10%;
+	}
+
+	
+	.Sign-In-Container .content 
+	{
+	    display: none;
+	    padding : 5px;
+	}
+
+	
+
+	#Reg
+	{
+		text-decoration: underline;
+	}
+
+	.item-title
+	{
+		margin-bottom: 10px;
+	}
+
+	.item-title h4
+	{
+		font-weihgt: bold;
+	}
+
+
+   .primary_currency
+   {
+   	margin: 0 20%;
+
+   }
+
+   .content ul iframe
+   {
+		width: 100%;
+   }
+
+   ul{
+   	padding: 0;
+   }
+
+
+	
+}
+	
+
+	
+
+
+
+	
+
+	
+	
+

@@ -1,0 +1,18 @@
+h1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%
+	font-family: 'Alegreya SC', serif;
+
+}
+
+#heading1 h1{
+	background-color: #efefef;
+}
+
+p.example {
+	margin-top: 100px;
+}
